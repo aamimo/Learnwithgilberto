@@ -4,13 +4,26 @@
         "category": "faith",
         "title": "The Power of Stillness",
         "preview": "Understanding Psalm 46:10 in a noisy world...",
-        "image": "https://images.unsplash.com/photo-1504052434569-70ad5836ab65?q=80&w=800"
+        "image": "https://images.unsplash.com/photo-1504052434569-70ad5836ab65?q=80&w=800",
+        "scripture": "Be still, and know that I am God. — Psalm 46:10",
+        "content": "<p>In our modern world, stillness is often mistaken for laziness. However, in the biblical sense, stillness is a deliberate posture of the heart.</p><p>To be still is to surrender our need to control the outcome. It is the quiet confidence that God is moving even when we are not. When we stop striving, we begin to see His hand at work.</p>"
     },
     {
         "id": 2,
         "category": "strength",
         "title": "Mountaintop Endurance",
-        "preview": "Finding the courage to keep climbing...",
-        "image": "https://images.unsplash.com/photo-1444491741275-3747c53c99b4?q=80&w=800"
+        "preview": "Finding the courage to keep climbing when weary...",
+        "image": "https://images.unsplash.com/photo-1444491741275-3747c53c99b4?q=80&w=800",
+        "scripture": "But those who hope in the Lord will renew their strength. They will soar on wings like eagles. — Isaiah 40:31",
+        "content": "<p>Endurance isn't just about finishing; it's about how we run the race when we are tired. Biblical strength doesn't come from our own muscles, but from our hope in the Lord.</p><p>When you feel like you cannot take another step, remember that His grace is sufficient for you. He provides the wind beneath your wings to soar above the mountains of life.</p>"
+    },
+    {
+        "id": 3,
+        "category": "wisdom",
+        "title": "The Wise Builder",
+        "preview": "Building your life on a foundation that lasts...",
+        "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?q=80&w=800",
+        "scripture": "Therefore everyone who hears these words of mine and puts them into practice is like a wise man who built his house on the rock. — Matthew 7:24",
+        "content": "<p>A beautiful house is worthless if the foundation is weak. In life, we often focus on the 'walls'—our reputation, our success, our appearance—but God looks at the foundation.</p><p>By putting the Word of God into practice daily, we build a life that can withstand the storms. Wisdom is not just knowing the truth, but acting on it.</p>"
     }
 ]
