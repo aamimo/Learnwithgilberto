@@ -1,38 +1,51 @@
-<!-- Inside the <main> section of index.html -->
-<section class="lesson-grid" id="lessonGrid">
-    <!-- Lesson 1: Faith -->
-    <article class="lesson-card" data-category="faith">
-        <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1504052434569-70ad5836ab65?q=80&w=800');"></div>
-        <div class="card-content">
-            <span class="category">Faith</span>
-            <h2>The Power of Stillness</h2>
-            <p>Understanding Psalm 46:10 in a noisy world...</p>
-            <a href="lesson-stillness.html" class="read-more">Read Lesson →</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson Title | Learnwithgilberto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="lesson-header">
+        <a href="index.html" class="back-btn">← Back to Home</a>
+    </header>
+
+    <article class="single-lesson">
+        <!-- Hero Section -->
+        <div class="lesson-hero" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1504052434569-70ad5836ab65?q=80&w=1200');">
+            <div class="hero-text">
+                <span class="category-tag">Faith</span>
+                <h1>The Power of Stillness</h1>
+            </div>
+        </div>
+
+        <!-- Main Content Area -->
+        <div class="lesson-body">
+            <section class="scripture-box">
+                <blockquote>
+                    "Be still, and know that I am God; I will be exalted among the nations, I will be exalted in the earth." 
+                    <span>— Psalm 46:10</span>
+                </blockquote>
+            </section>
+
+            <div class="content-text">
+                <p>In our modern world, stillness is often mistaken for laziness. However, in the biblical sense, stillness is a deliberate posture of the heart...</p>
+                
+                <h3>Finding Quiet in the Noise</h3>
+                <p>To be still is to surrender our need to control the outcome. It is the quiet confidence that God is moving even when we are not.</p>
+                
+                <!-- Add your full lesson content here -->
+            </div>
         </div>
     </article>
 
-    <!-- Lesson 2: Strength -->
-    <article class="lesson-card" data-category="strength">
-        <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1444491741275-3747c53c99b4?q=80&w=800');"></div>
-        <div class="card-content">
-            <span class="category">Strength</span>
-            <h2>Mountaintop Endurance</h2>
-            <p>Finding the courage to keep climbing when weary...</p>
-            <a href="lesson-endurance.html" class="read-more">Read Lesson →</a>
-        </div>
-    </article>
+    <footer>
+        <p>Stay connected with Learnwithgilberto</p>
+    </footer>
 
-    <!-- Lesson 3: Wisdom -->
-    <article class="lesson-card" data-category="wisdom">
-        <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1507413245164-6160d8298b31?q=80&w=800');"></div>
-        <div class="card-content">
-            <span class="category">Wisdom</span>
-            <h2>The Wise Builder</h2>
-            <p>Building your life on a foundation that lasts...</p>
-            <a href="lesson-builder.html" class="read-more">Read Lesson →</a>
-        </div>
-    </article>
-</section>
-
-<!-- Link to our new JavaScript file at the bottom -->
-<script src="js/main.js"></script>
+</body>
+</html>
+            
