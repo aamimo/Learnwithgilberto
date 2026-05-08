@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "category": "faith",
+        "title": "The Power of Stillness",
+        "preview": "Understanding Psalm 46:10 in a noisy world...",
+        "image": "https://images.unsplash.com/photo-1504052434569-70ad5836ab65?q=80&w=800"
+    },
+    {
+        "id": 2,
+        "category": "strength",
+        "title": "Mountaintop Endurance",
+        "preview": "Finding the courage to keep climbing...",
+        "image": "https://images.unsplash.com/photo-1444491741275-3747c53c99b4?q=80&w=800"
+    }
+]
