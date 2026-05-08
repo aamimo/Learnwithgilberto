@@ -21,7 +21,7 @@
     </header>
 
     <main>
-        <!-- Filter Bar Placeholder (Task 2) -->
+        <!-- Filter Bar -->
         <section class="filters">
             <button class="filter-btn active">All</button>
             <button class="filter-btn">Faith</button>
@@ -30,19 +30,41 @@
         </section>
 
         <!-- Lesson Grid -->
-        <section class="lesson-grid">
-            <!-- Sample Lesson Card -->
-            <article class="lesson-card">
+        <section class="lesson-grid" id="lessonGrid">
+            
+            <!-- Lesson Card 1 -->
+            <article class="lesson-card" data-category="faith">
                 <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1504052434569-70ad5836ab65?q=80&w=800');"></div>
                 <div class="card-content">
                     <span class="category">Faith</span>
                     <h2>The Power of Stillness</h2>
                     <p>Understanding Psalm 46:10 in a noisy world...</p>
-                    <a href="#" class="read-more">Read Lesson →</a>
+                    <a href="lesson-template.html" class="read-more">Read Lesson →</a>
                 </div>
             </article>
 
-            <!-- More cards will go here -->
+            <!-- Lesson Card 2 -->
+            <article class="lesson-card" data-category="strength">
+                <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1444491741275-3747c53c99b4?q=80&w=800');"></div>
+                <div class="card-content">
+                    <span class="category">Strength</span>
+                    <h2>Mountaintop Endurance</h2>
+                    <p>Finding the courage to keep climbing when weary...</p>
+                    <a href="lesson-template.html" class="read-more">Read Lesson →</a>
+                </div>
+            </article>
+
+            <!-- Lesson Card 3 -->
+            <article class="lesson-card" data-category="wisdom">
+                <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1507413245164-6160d8298b31?q=80&w=800');"></div>
+                <div class="card-content">
+                    <span class="category">Wisdom</span>
+                    <h2>The Wise Builder</h2>
+                    <p>Building your life on a foundation that lasts...</p>
+                    <a href="lesson-template.html" class="read-more">Read Lesson →</a>
+                </div>
+            </article>
+
         </section>
     </main>
 
@@ -50,5 +72,7 @@
         <p>&copy; 2026 Learnwithgilberto</p>
     </footer>
 
+    <!-- This script link is essential for the filters to work -->
+    <script src="js/main.js"></script>
 </body>
 </html>
