@@ -214,3 +214,14 @@ footer {
     font-family: 'Playfair Display', serif;
     margin: 2rem 0 1rem;
 }
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin-bottom: 3rem;
+}
