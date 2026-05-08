@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lesson Title | Learnwithgilberto</title>
+    <title>Lesson Details | Learnwithgilberto</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -13,39 +13,60 @@
         <a href="index.html" class="back-btn">← Back to Home</a>
     </header>
 
-    <article class="single-lesson">
-        <!-- Hero Section -->
-        <div class="lesson-hero" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1504052434569-70ad5836ab65?q=80&w=1200');">
-            <div class="hero-text">
-                <span class="category-tag">Faith</span>
-                <h1>The Power of Stillness</h1>
-            </div>
-        </div>
-
-        <!-- Main Content Area -->
-        <div class="lesson-body">
-            <section class="scripture-box">
-                <blockquote>
-                    "Be still, and know that I am God; I will be exalted among the nations, I will be exalted in the earth." 
-                    <span>— Psalm 46:10</span>
-                </blockquote>
-            </section>
-
-            <div class="content-text">
-                <p>In our modern world, stillness is often mistaken for laziness. However, in the biblical sense, stillness is a deliberate posture of the heart...</p>
-                
-                <h3>Finding Quiet in the Noise</h3>
-                <p>To be still is to surrender our need to control the outcome. It is the quiet confidence that God is moving even when we are not.</p>
-                
-                <!-- Add your full lesson content here -->
-            </div>
-        </div>
+    <article class="single-lesson" id="lessonContainer">
+        <!-- This content will be filled automatically by JavaScript -->
+        <div class="loading">Loading lesson...</div>
     </article>
 
     <footer>
         <p>Stay connected with Learnwithgilberto</p>
     </footer>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // 1. Get the ID of the lesson from the URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const lessonId = parseInt(urlParams.get('id'));
+
+            // 2. Fetch the Master List
+            fetch('./lessons.json')
+                .then(response => response.json())
+                .then(lessons => {
+                    // 3. Find the specific lesson that matches the ID
+                    const lesson = lessons.find(l => l.id === lessonId);
+
+                    if (lesson) {
+                        renderLesson(lesson);
+                    } else {
+                        document.getElementById('lessonContainer').innerHTML = "<h1>Lesson not found</h1>";
+                    }
+                });
+
+            function renderLesson(data) {
+                const container = document.getElementById('lessonContainer');
+                container.innerHTML = `
+                    <div class="lesson-hero" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('${data.image}');">
+                        <div class="hero-text">
+                            <span class="category-tag">${data.category}</span>
+                            <h1>${data.title}</h1>
+                        </div>
+                    </div>
+
+                    <div class="lesson-body">
+                        <section class="scripture-box">
+                            <blockquote>
+                                "${data.scripture}"
+                            </blockquote>
+                        </section>
+
+                        <div class="content-text">
+                            ${data.content}
+                        </div>
+                    </div>
+                `;
+            }
+        });
+    </script>
 </body>
 </html>
             
