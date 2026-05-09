@@ -26,7 +26,7 @@
         "scripture": "Therefore everyone who hears these words of mine and puts them into practice is like a wise man who built his house on the rock. — Matthew 7:24",
         "content": "<p>A beautiful house is worthless if the foundation is weak. In life, we often focus on the 'walls'—our reputation, our success, our appearance—but God looks at the foundation.</p><p>By putting the Word of God into practice daily, we build a life that can withstand the storms. Wisdom is not just knowing the truth, but acting on it.</p>"
     },
-{
+    {
         "id": 4,
         "category": "wisdom",
         "title": "The Gift of Purpose",
@@ -35,5 +35,13 @@
         "scripture": "For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you. — Jeremiah 29:11",
         "content": "<p>Many of us spend our lives wondering if we are in the right place or doing the right thing. But biblical purpose isn't about finding a perfect job; it's about walking with a perfect God.</p><p>Your life is not a mistake. Every talent you have and every challenge you have faced has been woven together by God to create a unique impact on the world around you. When you align your heart with His, your purpose becomes clear: to reflect His light wherever you are.</p>"
     },
-    
+    {
+        "id": 5,
+        "category": "faith",
+        "title": "A New Beginning",
+        "preview": "Understanding how grace allows us to start over...",
+        "image": "https://images.unsplash.com/photo-1470252649358-96957c053e9a?q=80&w=800",
+        "scripture": "Because of the Lord’s great love we are not consumed, for his compassions never fail. They are new every morning. — Lamentations 3:22-23",
+        "content": "<p>The beauty of the walk of faith is that failure is never the end of the story. God’s grace is not a one-time event, but a daily gift. Every morning provides a fresh opportunity to leave yesterday's weight behind.</p><p>If you feel burdened by past mistakes or the pressure of today, remember that God's compassions are new right now. You don't have to be perfect to be loved; you just have to be willing to start again with Him.</p>"
+    }
 ]
